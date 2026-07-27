@@ -1,0 +1,16 @@
+# HealthcareSource
+
+> HealthcareSource is a healthcare-focused talent management software provider (recruiting, applicant tracking, onboarding, behavioral assessments, learning, and performance management) used across U.S. healthcare organizations. HealthcareSource was acquired by symplr in July 2021 and its products are now delivered as part of symplr's healthcare talent-management suite. This is an API Evangelist company profile; no public developer/API program is published for the brand.
+
+## About
+- HealthcareSource landing (symplr): https://www.symplr.com/healthcaresource
+- symplr Recruiting (applicant tracking): https://www.symplr.com/products/symplr-recruiting
+- Talent management solutions: https://www.symplr.com/solutions/talent-management
+- Legacy site (redirects to symplr): https://www.healthcaresource.com/
+
+## Profile
+- API Evangelist profile: https://raw.githubusercontent.com/api-evangelist/healthcaresourcecom/refs/heads/main/apis.yml
+
+## Notes
+- No public OpenAPI, developer portal, SDK/package, MCP server, or /.well-known discovery surface was found for this brand at profiling time (2026-07-19).
+- The healthcaresource.com domain 301-redirects to symplr.com/healthcaresource.

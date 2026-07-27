@@ -1,8 +1,24 @@
 aid: healthcaresourcecom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/healthcaresourcecom.png
 name: Healthcaresource.com
-description: 'Healthcaresource.com is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'HealthcareSource is a healthcare-focused talent management software provider whose
+  recruiting, applicant tracking, onboarding, behavioral assessments, learning, and employee
+  performance-management products are used across U.S. healthcare organizations. HealthcareSource
+  was acquired by symplr in July 2021 (from Francisco Partners) and its products are now delivered
+  as part of symplr''s healthcare talent-management suite, including symplr Recruiting. No public
+  developer program, API documentation, SDK, or /.well-known discovery surface was found for the
+  brand at profiling time; the healthcaresource.com domain 301-redirects to symplr.com/healthcaresource.'
 url: https://raw.githubusercontent.com/api-evangelist/healthcaresourcecom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +26,20 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: symplr
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Talent Management
+- Recruiting
+- Applicant Tracking
+- Onboarding
+- Human Resources
+- Learning Management
+- Employee Performance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/healthcaresourcecom-domain-security.yml
 - type: Website
-  url: http://www.healthcaresource.com/
+  url: https://www.healthcaresource.com/
+- type: LLMsTxt
+  url: llms/healthcaresourcecom-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
