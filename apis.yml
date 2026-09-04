@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.healthcaresource.com/', status: 301, note: 'declared website redirects to https://www.symplr.com/healthcaresource — a different registrable domain (healthcaresource.com -> symplr.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/healthcaresourcecom.png
 name: Healthcaresource.com
 description: 'HealthcareSource is a healthcare-focused talent management software provider whose
